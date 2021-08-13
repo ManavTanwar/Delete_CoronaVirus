@@ -8,7 +8,7 @@ function replaceText(element)
     }
     else if(element.nodeType === element.TEXT_NODE)
     {
-        element.textContent=element.textContent.replace(/Coronavirus/gi,'ChinaVirus')
+        element.textContent=element.textContent.replace(/Coronavirus/gi,'C19')
     }
 
 }
